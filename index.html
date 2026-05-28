@@ -3,29 +3,77 @@
   <head>
     <meta charset="utf-8" />
     <title>Ziqing Zhong</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <h1>Ziqing Zhong</h1>
-    <p>Hello world!</p>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="site-name" href="index.html">Ziqing Zhong</a>
 
-    <h2>Class Assignments</h2>
-    <ol>
-      <li><a href="index.html">UNIX Assignment</a></li>
-      <li><a href="about_me.html">HTML Assignment</a></li>
-      <li><a href="index.html">CSS Assignment</a></li>
-      <li><a href="topic_of_interest.html">JQuery Assignment</a></li>
-      <li><a href="user_experience_design.html">User Experience Assignment</a></li>
-      <li><a href="index.html">Responsive Design Assignment</a></li>
-      <li><a href="professional_site.html">Bootstrap Assignment</a></li>
-      <li><a href="photoshop.html">Photoshop Assignment</a></li>
-      <li><a href="vector_graphics.html">Vector Graphics Assignment</a></li>
-      <li><a href="animated_gif.html">Animated GIF Assignment</a></li>
-      <li><a href="video.html">Digital Video Assignment</a></li>
-    </ol>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="more_about_me.html">Experiences</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <p>
-      Welcome to my personal website. This site contains my work for
-      Introduction to Web Design.
-    </p>
+    <main>
+      <section class="container hero">
+        <div>
+          <p class="eyebrow">NYU · Introduction to Web Design</p>
+          <h1>Ziqing Zhong</h1>
+          <p class="hello-world">Hello world!</p>
+
+          <p class="intro">
+            Welcome to my personal website. This site introduces some of my
+            interests and memorable experiences while showcasing my work for
+            Introduction to Web Design.
+          </p>
+
+          <a class="button" href="about_me.html">Learn More About Me</a>
+        </div>
+
+        <aside class="hero-card">
+          <h2>Welcome</h2>
+          <p>
+            I am learning how to structure web content with HTML, publish pages
+            online, and create a website that represents who I am.
+          </p>
+          <p>
+            Explore my interests, experiences, and course assignments through
+            the links on this site.
+          </p>
+        </aside>
+      </section>
+
+      <section class="container assignments">
+        <h2 class="section-title">Class Assignments</h2>
+
+        <ol class="assignment-list">
+          <li><a href="index.html">UNIX Assignment</a></li>
+          <li><a href="about_me.html">HTML Assignment</a></li>
+          <li><a href="index.html">CSS Assignment</a></li>
+          <li><a href="topic_of_interest.html">JQuery Assignment</a></li>
+          <li><a href="user_experience_design.html">User Experience Assignment</a></li>
+          <li><a href="index.html">Responsive Design Assignment</a></li>
+          <li><a href="professional_site.html">Bootstrap Assignment</a></li>
+          <li><a href="photoshop.html">Photoshop Assignment</a></li>
+          <li><a href="vector_graphics.html">Vector Graphics Assignment</a></li>
+          <li><a href="animated_gif.html">Animated GIF Assignment</a></li>
+          <li><a href="video.html">Digital Video Assignment</a></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Ziqing Zhong | Introduction to Web Design</p>
+      </div>
+    </footer>
   </body>
 </html>

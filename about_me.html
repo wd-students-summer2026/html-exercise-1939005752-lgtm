@@ -2,53 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>About Me - Ziqing Zhong</title>
+    <title>About Me | Ziqing Zhong</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <h1>About Me</h1>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="site-name" href="index.html">Ziqing Zhong</a>
 
-    <section>
-      <h2>My background</h2>
-      <p>
-        My name is Ziqing Zhong. I am a student at New York University.
-        I am currently learning how to build and publish websites using HTML.
-        This website is a place where I can share a little about myself and
-        practice my web design skills.
-      </p>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about_me.html">About Me</a></li>
+            <li><a href="more_about_me.html">Experiences</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <img
-        src="images/photo.jpg"
-        alt="A photograph of Ziqing Zhong"
-        width="400"
-      />
-    </section>
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1>About Me</h1>
+          <p>Learn a little about my background and one of my favorite interests.</p>
+        </div>
+      </section>
 
-    <section>
-      <h2>My interests</h2>
-      <p>
-        One of my favorite activities is playing basketball. I enjoy the
-        energy of the game, the teamwork involved, and the challenge of
-        improving my skills. Basketball is also a great way for me to stay
-        active and spend time with friends.
-      </p>
+      <div class="container content-grid">
+        <section class="content-card">
+          <h2>My background</h2>
+          <p>
+            My name is Ziqing Zhong, and I am a student at New York University.
+            I am currently learning how to design and publish websites using
+            HTML. Building this website gives me a chance to practice my web
+            design skills while introducing myself in a creative way.
+          </p>
 
-      <img
-        src="images/interest.jpg"
-        alt="A photograph of me playing basketball"
-        width="400"
-      />
-    </section>
+          <figure>
+            <img
+              src="images/photo.jpg"
+              alt="A photograph of Ziqing Zhong"
+            />
+            <figcaption>A photograph representing my background.</figcaption>
+          </figure>
+        </section>
 
-    <p>
-      I am a student at
-      <a href="https://www.nyu.edu/">New York University</a>.
-    </p>
+        <section class="content-card">
+          <h2>My interests</h2>
+          <p>
+            One of my favorite activities is playing basketball. I enjoy the
+            energy of the game, the teamwork involved, and the challenge of
+            improving my skills. Basketball is also a great way for me to stay
+            active and spend time with friends.
+          </p>
 
-    <nav>
-      <a href="index.html">Back to Home Page</a>
-      |
-      <a href="more_about_me.html">More About Me</a>
-    </nav>
+          <figure>
+            <img
+              src="images/interest.jpg"
+              alt="A photograph of me playing basketball"
+            />
+            <figcaption>Playing basketball is one of my favorite activities.</figcaption>
+          </figure>
+
+          <p>
+            To learn more about the sport I enjoy, visit the
+            <a href="https://www.nba.com/">official NBA website</a>.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <a href="index.html">Back to Home Page</a>
+          |
+          <a href="more_about_me.html">Continue to More About Me</a>
+        </p>
+        <p>&copy; 2026 Ziqing Zhong</p>
+      </div>
+    </footer>
   </body>
 </html>

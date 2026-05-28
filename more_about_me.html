@@ -2,55 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>More About Me - Ziqing Zhong</title>
+    <title>Experiences | Ziqing Zhong</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <h1>More About Me</h1>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="site-name" href="index.html">Ziqing Zhong</a>
 
-    <section>
-      <h2>Two Memorable Experiences</h2>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a class="active" href="more_about_me.html">Experiences</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <h3>Trying Shooting</h3>
-      <p>
-        One memorable experience I have had was trying shooting at a shooting
-        range. It was a new and challenging activity for me because it required
-        focus, patience, and careful attention to safety. This experience gave
-        me the opportunity to try something different and learn more about the
-        importance of concentration and responsibility.
-      </p>
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1>More About Me</h1>
+          <p>Two experiences that have been memorable to me.</p>
+        </div>
+      </section>
 
-      <img
-        src="images/experience1.jpg"
-        alt="A photograph from my shooting range experience"
-        width="400"
-      />
+      <div class="container content-grid">
+        <section class="content-card">
+          <h2>Two Memorable Experiences</h2>
 
-      <h3>Going to a Concert</h3>
-      <p>
-        Another memorable experience for me was going to a concert. I enjoyed
-        listening to live music and experiencing the energy of the performance
-        with other people in the audience. Watching music performed live made
-        the experience much more exciting and meaningful to me.
-      </p>
+          <div class="experience-grid">
+            <article class="experience">
+              <h3>Trying Shooting at a Range</h3>
+              <p>
+                One memorable experience I have had was trying shooting at a
+                supervised shooting range. It was a new activity for me because
+                it required concentration, patience, and close attention to
+                safety instructions. I found it interesting to try something
+                unfamiliar in a responsible environment.
+              </p>
 
-      <img
-        src="images/experience2.jpg"
-        alt="A photograph from a concert experience"
-        width="400"
-      />
-    </section>
+              <figure>
+                <img
+                  src="images/experience1.jpg"
+                  alt="A photograph from my supervised shooting range experience"
+                />
+                <figcaption>
+                  A memorable experience at a supervised shooting range.
+                </figcaption>
+              </figure>
+            </article>
 
-    <p>
-      I enjoy learning more about live performances and music through places
-      such as
-      <a href="https://www.carnegiehall.org/">Carnegie Hall</a>.
-    </p>
+            <article class="experience">
+              <h3>Going to a Concert</h3>
+              <p>
+                Another memorable experience for me was attending a live
+                concert. I enjoyed listening to music in person and feeling the
+                energy created by the performers and the audience. Live music
+                made the experience exciting and meaningful.
+              </p>
 
-    <nav>
-      <a href="about_me.html">Back to About Me</a>
-      |
-      <a href="index.html">Back to Home Page</a>
-    </nav>
+              <figure>
+                <img
+                  src="images/experience2.jpg"
+                  alt="A photograph from a live concert I attended"
+                />
+                <figcaption>Enjoying the atmosphere of a live concert.</figcaption>
+              </figure>
+            </article>
+          </div>
+
+          <p>
+            One place where people can discover live musical performances is
+            <a href="https://www.carnegiehall.org/">Carnegie Hall</a>.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <a href="about_me.html">Back to About Me</a>
+          |
+          <a href="index.html">Back to Home Page</a>
+        </p>
+        <p>&copy; 2026 Ziqing Zhong</p>
+      </div>
+    </footer>
   </body>
 </html>
